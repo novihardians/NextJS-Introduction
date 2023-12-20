@@ -1,5 +1,5 @@
 import { CheckIcon, ClockIcon } from '@heroicons/react/24/outline';
-import clsx from 'clsx';
+import clsx from 'clsx'; // using clsx // a library to toggle class names
 
 export default function InvoiceStatus({ status }: { status: string }) {
   return (
@@ -12,6 +12,7 @@ export default function InvoiceStatus({ status }: { status: string }) {
         },
       )}
     >
+      {/* ini adalah that condition */}
       {status === 'pending' ? (
         <>
           Pending

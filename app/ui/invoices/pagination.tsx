@@ -1,7 +1,7 @@
 'use client';
 
 import { ArrowLeftIcon, ArrowRightIcon } from '@heroicons/react/24/outline';
-import clsx from 'clsx';
+import clsx from 'clsx'; // using clsx // a library to toggle class names
 import Link from 'next/link';
 import { generatePagination } from '@/app/lib/utils';
 
