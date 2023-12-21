@@ -1,5 +1,5 @@
 import { CheckIcon, ClockIcon } from '@heroicons/react/24/outline';
-import clsx from 'clsx'; // using clsx // a library to toggle class names
+import clsx from 'clsx'; // using clsx // a library to toggle class names easily
 
 export default function InvoiceStatus({ status }: { status: string }) {
   return (
